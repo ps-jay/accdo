@@ -1,4 +1,13 @@
 <?php
+/**
+ * AuroraCDDOutput "acddo-fetch.php" file.
+ *
+ * This code fetches the data from the Aurora CDD and saves the result in the MySQL DB.
+ *
+ * This should be run as often as necessary via cron.
+ *
+ */
+
 include 'accdo-config.php';
 
 // Fetch the XML

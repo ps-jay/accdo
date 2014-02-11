@@ -23,4 +23,6 @@ $cdd_address = '192.168.1.100';
 /* PVOutput.org API Key */
 $pvoutput_apikey = '0000000000000000000000000000000000000000';
 
+/* PVOutput.org System ID */
+$pvoutput_sid = '00000';
 ?>
