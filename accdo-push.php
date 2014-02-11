@@ -1,6 +1,16 @@
 <?php
+/**
+ * AuroraCDDOutput "acddo-push.php" file.
+ *
+ * This code fetches the latest data stored in the MySQL DB and sends it to pvoutput using a HTTP get request.
+ *
+ * This should be run as often as necessary via cron.
+ *
+ */
+
 include 'accdo-config.php';
 
+// The url for the pvoutput live API
 $url = 'http://pvoutput.org/service/r2/addstatus.jsp';
 
 // Connect to MySQL
