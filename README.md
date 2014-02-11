@@ -1,8 +1,8 @@
 Aurora CDD Output (accdo) - Troy Reynolds
 
-These scripts retrieve the XML data from the Aurora Micro Inverter CDD unit and stores it in a MySQL database.  It also has the ability to push the data to pvoutput.org using their API.
+These scripts retrieve the XML data from the Aurora Micro Inverter CDD unit and store it in a MySQL database.  It also has the ability to push the data to the pvoutput.org API.
 
-It consits of 3 files.
+It consits of 4 files:
 
 accdo-config.php - The configuration file, change MySQL Info, CDD info and pvoutput.org info in here.
 accdo-install.php - Run once, this sets up the MySQL database table with the required fields.
