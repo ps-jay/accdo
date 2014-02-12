@@ -31,7 +31,8 @@ $pvdate=$seqts->format('Ymd');
 $pvtime=$seqts->format('H:i');
 
 $geturl = $url.'?key='.$pvoutput_apikey.'&sid='.$pvoutput_sid.'&d='.$pvdate.'&t='.$pvtime.'&v1='.$result->pvgen.'&v2='.$result->pvpwr.'&v5='.$result->pvtemp.'&v6='.$result->pvvolt.'&c1=1';
-echo $geturl."\n";
 
+$response = file_get_contents($geturl);
+echo $response;
 mysqli_close($link);
 ?>
